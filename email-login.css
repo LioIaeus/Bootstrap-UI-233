@@ -1,11 +1,47 @@
-<!--Navigation-->
-#Navigation {
-    background-color: #595758;
+.container-fluid{
+    background-color: #FFEEF2;
+    height: 100vh;
+}
+
+.row {
+    height: 100vh;
+    background-color: #FFEEF2;
+}
+
+.temp-nav {
+    background-color: #90E39A;
+    color: #595758;
+    border-color: #90E39A;
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 50%;
+    width: 100px;
+
+    
+}
+
+.welcome {
+    margin-left: 20px;
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 20px;
+
 }
 .navig {
     background-color: #595758;
+    
 }
-.navbar-nav {
-    padding: 60px;
-    margin-left: 10px;
+
+.list-group-item {
+    background-color: transparent !important;
+    color: #595758
+    border: transparent;
+    padding: 15px;
+    font-size: 20px;
 }
+
+<!--Emails-->
+.mid-menu {
+    color: #FFE4F3;
+}
+
