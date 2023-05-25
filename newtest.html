@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device initial-scale=1">
+        <title>Email UI TEST</title>
+        <link rel="stylesheet" type="" href="TEST.css">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!--Searchbar Tab-->
+            <div class="row searchbar">
+                <div class="col">
+                    <h1 id="welcome">Welcome!</h1>
+                    <button type="button" class="comp">Compose Email</button>
+                    <input class="searchbox" type="text" placeholder="Search Inbox">
+                </div>
+            </div>
+            <div class="row">
+                <!--First Column - Navigation/Welcome-->
+                <div class="col-1 col-md-1 coluno"><hr>
+                    <table id="navigation">
+                        <tr>
+                            <td>Inbox</td>
+                        </tr>
+                        <tr>
+                            <td>Important</td>
+                        </tr>
+                        <tr>
+                            <td>Sent</td>
+                        </tr>
+                        <tr>
+                            <td>Spam</td>
+                        </tr>
+                        <tr>
+                            <td>Trash</td>
+                        </tr>
+                        <tr>
+                            <td>Drafts</td>
+                        </tr>
+                    </table>
+                    <hr>
+                </div>
+
+                <!--Emails-->
+                <div class="col-5 col-md-4 coldos">
+                    <div class="email-card-select">
+                        <h1 class="email-head">Regarding the Rogue Hunters...</h1>
+                        <h2 class="wherefrom" id="address">To: hojoartmaster@chainmail.org<br>From: desisland_huntress@chainmail.org</h2></h2>
+                        <span class="date">March 17th, 2023</span>
+                        <p id="email-body">Greetings, Guildmaster. As of today, that group of hun...</p>
+                    </div>
+                    <div class="email-card">
+                        <h1 class="email-head">Heyhey! Have a Safe Trip!:)</h1>
+                        <h2 class="wherefrom" id="address">To: desisland_huntress@chainmail.org<br>From: dangobunnies<3@chainmail.org</h2></h2>
+                        <span class="date">March 17th, 2023</span>
+                        <br id="email-body">Sending you love from home. Have a safe trip!! Don't worry about
+                            your house and chamberlain. We will take good care of them!<br>-Hinoka and Mikoto</br></p>
+                    </div>
+                    <div class="email-card">
+                        <h1 class="email-head">Pickup Available</h1>
+                        <h2 class="wherefrom" id="address">To: desisland_huntress@chainmail.org<br>From: forgemaster@chainmail.org</h2></h2>
+                        <span class="date">March 17th, 2023</span>
+                        <p id="email-body">Got a new recipe for a hunting bow. Comes with a....</p>
+                    </div>
+                </div>
+
+                <!--Detailed Email-->
+                <div class="col-6 col-md-7 coltres">
+                    <div class="to-from">
+                        <h3 class="email-head-detail">Regarding the Rogue Hunters...</h3>
+                        <p id="to">To: Guildmaster Hojo</p>
+                        <p id="from">From: desisland_huntress@chainmail.org</p>
+                    </div>
+                    <div class="tres-reply-email">
+                        <form>
+                            <label for="reply" id="response-label">Respond</label>
+                            <textarea class="form-control" id="Reply" rows="10" placeholder="Type Response..."></textarea>
+                        </form>
+                    </div>
+                    <div class="email-footer">
+                        <button id="reply-btn" class="btn" type="submit">Send Message</button>
+                    </div>
+                    
+                    <hr>
+                    <p id="to-detail">To: desisland_huntress@chainmail.org<br>From: Guildmaster Hojo</br>
+                    </p>
+                    <p id="from-detail">March 16, 2023 10:54AM</p>
+                    <hr>
+                    
+        <div class="reply-card">
+            <p>Hello my dear!</p>
+            <p>Please have a safe journey. Alert one of our scouts on your way if you have need of any supplies, hmm?</p>
+            <p><3 Guildmaster</p>
+        </div>
+        <p id="to-detail">
+            To: Guildmaster Hojo<br>From: desisland_huntress@chainmail.org</br>
+        </p>
+        <p id="from-detail">March 16, 2023 10:54AM</p>
+        <hr>
+        <p>Greetings, Guildmaster. <br>As of today, that group of hunters terrorizing the outskirts of Kamura's territory have been dealt with. Our squad will be starting the journey home later this evening. Please give Hinoka and Minoto our regards. -B</p>
+    </body>
+</html>

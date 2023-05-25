@@ -1,0 +1,158 @@
+.container-fluid {
+    background-color: #FFEEF2;
+    font-family: monospace;
+    height: 100vh;
+}
+
+#welcome {
+    position: absolute;
+    top: 5%;
+    left: 74%;
+    font-style: italic;
+    font-family: Verdana; 
+}
+.email-head {
+    font-size: 20px;
+    font-style: italic;
+    color: #595758;
+    background-color: #ecd4e1;
+}
+
+.email-head-detail {
+    padding-left: 10px;
+    font-style: italic;
+    color: #595758;
+    background-color: #f1d8e6;
+    margin-top: 20px;
+
+}
+.wherefrom {
+    font-size: 11px;
+    background-color: #ecd4e1;
+    margin-top: 1px;
+}
+
+.date {
+    margin-top: 1px;
+    background-color:#ecd4e1;
+}
+.comp {
+    background-color: #90E39A;
+    color: #595758;
+    border-color: #90E39A;
+    margin-top: 30px;
+    margin-left: 17px;
+    border-radius: 50%;
+    width: 100px;
+    font-size: 12px;
+    padding: 18px;
+}
+
+
+.searchbar {
+    background-color: #595758;
+}
+
+.searchbox {
+    position:absolute;
+    top: 7%;
+    left: 86%;
+    background-color: #FFEEF2;
+    font-style: italic;
+    width: 250px;
+
+}
+
+.searchbox:hover {
+    background-color: #f1cce1;
+    color:#6ead75
+}
+.coluno {
+    background-color: #595758;
+}
+
+#navigation {
+    margin: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    font-size: 20px;
+    
+}
+tr:hover {color:#90E39A;}
+
+.coldos {
+    background-color: #FFEEF2;
+}
+
+#address {
+    text-overflow: clip !important;
+}
+
+#email-body {
+    text-overflow: clip;
+}
+
+.email-card-select {
+    margin: 10px;
+    margin-top: 20px;
+    background-color: #f1cce1;
+    border: solid 1px #90E39A;
+    box-shadow: 0px 0px 5px 2px #FFE4F3;
+    text-overflow: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.email-card {
+    margin: 10px;
+    margin-top: 20px;
+    background-color: #FFE4F3;
+    border: solid 1px #90E39A;
+    box-shadow: 0px 0px 5px 2px #FFE4F3;
+    text-overflow: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+
+
+.coltres {
+    background-color: #FFE4F3;
+    margin-top: 10px !important;
+    padding: 10px;
+}
+
+.tres-reply-email {
+    
+}
+
+#response-label {
+    font-style: italic;
+    margin-left: 40px;
+    color: #d6ced2;
+}
+
+#reply-btn {
+    background-color:#d6ced2;
+    margin-top: 20px;
+    
+}
+
+#reply-btn:hover {
+    color:#90E39A;
+    background-color:#595758;
+}
+#to-detail {
+    margin-top: 50px;
+    background-color: #f1d8e6;
+}
+
+#from-detail {
+    background-color: #f1d8e6;
+    margin-top: none;
+}
